@@ -13,7 +13,7 @@ import pandas as pd
 import pickle
 
 
-with open('/Users/hari/Desktop/Projects/P323/fb_prophet.pkl', 'rb') as model_file:
+with open('fb_prophet.pkl', 'rb') as model_file:
 # with open('RFC.sav', 'rb') as model_file: 
     model = pickle.load(model_file)
     
